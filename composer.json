@@ -1,5 +1,6 @@
 {
 	"name": "alexforce2/sleeping-owl-admin-php7-fix",
+	"version": "master",
 	"description": "Aministrative interface builder for Laravel.",
 	"homepage": "http://sleeping-owl.github.io",
 	"keywords": [
