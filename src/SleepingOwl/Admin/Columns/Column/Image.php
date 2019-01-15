@@ -32,7 +32,7 @@ class Image extends NamedColumn
 	/**
 	 * @return View
 	 */
-	public function render()
+	public function render($instance, $totalCount, $content = NULL)
 	{
 		$value = $this->getValue($this->instance, $this->name());
 		if ( ! empty($value) && (strpos($value, '://') === false))
